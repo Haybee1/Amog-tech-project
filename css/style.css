@@ -1,0 +1,170 @@
+body{
+  font-family:"Roboto";
+}
+#title{
+  background-color:#ff4c68;
+  color:#fff;
+}
+.container-fluid{
+  padding: 3% 8%;
+}
+h1{
+font-family: "Roboto-black";
+font-size:2.6rem;
+line-height:1.5;
+}
+h2{
+  font-family: "Roboto-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family:"Roboto-bold";
+  font-size:1.5rem;
+}
+h5{
+  line-height: 1.5;
+}
+p{
+  color: #8f8f8f;
+}
+
+/*Navigation Bar*/
+
+.navbar{
+  padding:0 0 4.5rem;
+
+}
+.navbar-brand {
+font-family:"Ubuntu";
+font-size: 2rem;
+font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family:"Roboto-light";
+}
+
+/*Title Image*/
+.title-img{
+  width:70%;
+  border-radius: 100%;
+  margin-left: 2rem;
+}
+
+/*Services section */
+#services{
+  padding: 7% 15%;
+  background-color: #fff;
+}
+.services-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+/* testimonials section*/
+
+#testimonials{
+
+  text-align: center;
+  background-color:#ef8172;
+  color: #fff;
+}
+.testimonials-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/*-Gallery-*/
+#gallery{
+  background-color: #fff;
+  padding:3% 6%;
+}
+.ourgallery{
+  width: 90%;
+  height: 70%;
+}
+/*about section*/
+#About{
+  background-color:#ff4c68;
+  padding:7% 15%;
+  color: #fff;
+  line-height:1.5;
+}
+.footer-paragraph{
+    color: #fff;
+
+}
+.about-img{
+width: 400px;
+margin-bottom: 2rem;
+}
+
+h4{
+  font-weight: bold;
+  margin-top: 3rem;
+}
+.about-title{
+  margin-bottom: 4rem;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/*contact section*/
+#contact{
+  background-color:#ff4c68;
+  padding: 2% 15%;
+  color: #fff;
+}
+ul.address-detail li .address-detail-btm p, ul.address-detail li .address-detail-btm p a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  padding-right: 7%
+  }
+  ul.address-detail li {
+    list-style-type: none;
+
+  }
+.main-title {
+  padding-top: 3rem;
+color: #fff;
+font-size: 36px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+
+    /*footer section*/
+}
+#footer{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
